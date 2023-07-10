@@ -1,0 +1,434 @@
+.my-fonts {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../images/Sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#idioma {
+    top: 0;
+    left: 10%;
+    position: fixed;
+    z-index: 999;
+    width: 80%;
+    height: 30px;
+    background-color: #202020;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#icon {
+    align-items: end;
+    margin-right: .5rem;
+    text-decoration: none;
+}
+
+#flag {
+    padding: .4rem
+}
+
+#icon2 {
+    display: none;
+}
+
+a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 2vmin;
+    line-height: 50%;
+}
+
+a:hover {
+    color: #858585;
+}
+
+#logo {
+    width: 8rem;
+}
+
+#logop{
+    width: 3rem;
+    display: none;
+}
+
+#header {
+    position: fixed;
+    top: 30px;
+    left: 10%;
+    width: 80%;
+    height: 80px;
+    z-index: 999;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    font-size: medium;
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+    
+}
+
+
+#social {
+    width: 80%;
+    height: 200px;
+    background-color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+#iconbuy {
+    width: 5rem;
+    padding: .5rem;
+}
+
+#store a {
+    text-decoration: none;
+}
+
+#icondown {
+    margin-right: 1rem;
+}
+
+#icondown a {
+    padding: .1rem;
+    text-decoration: none;
+}
+
+#insta {
+    width: 2rem;
+    padding: .1rem;
+}
+
+#logofume {
+    width: 7rem;
+    margin-left: .3rem;
+}
+
+#footer {
+    width: 80%;
+    height: 50px;
+    background-color: #202020;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+#copyicarus {
+    text-decoration: none;
+    color: #adacac;
+    font-size: small;
+}
+
+#idioma a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#body {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -10px;
+    background-color: #e0dfdf;
+}
+
+.king h3 {
+    color: #fff;
+}
+
+.king h2 {
+    color: #0099cc;
+}
+
+.king h4 {
+    color: #c4c1c1;
+}
+
+.king {
+    width: 80%;
+    height: 40vh;
+    margin: 10px auto;
+    margin-top: 50px;
+    background-image: url(../images/King.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+#frase {
+    color: #202020;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;    
+    margin-left: 10%;
+    text-align: center;
+}
+
+#ipad {
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+#frase2 {
+    color: #202020b;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;    
+    margin-left: 10%;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    #logo{
+        display: none;
+    }
+    #logop{
+        display: block;
+    }
+    #icon2 {
+        display: block;
+    }
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        box-sizing: border-box;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        right: 0px;
+        background-color: #fff;
+        transition: .6s;
+        z-index: 1000;
+        height: auto;
+    max-height: calc(100vh - 50px);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        color: #202020;
+        font-size: medium;
+        padding: 1rem 0;
+        margin: 0px 1rem;
+        border-bottom: 2px solid #d6d4d4;
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    #hamburger {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    #social {
+        width: 100%;
+        height: 150px;
+        background-color: #333333;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        left: 0;
+        right: 0;
+    }    
+    #iconbuy {
+        width: 4rem;
+        margin-left: 1.7rem;
+    }
+    #footer {
+        width: 100%;
+        height: 30px;
+        background-color: #202020;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+    }
+    #store {
+        margin-right: 1.5rem;
+        margin-left: 1.8rem;
+    }    
+    #store a {
+        text-decoration: none;
+    }    
+    #icondown {
+        margin-right: .2rem;
+        margin-left: 3.2rem;
+    }    
+    #icondown a {
+        text-decoration: none;
+    }    
+    #insta {
+        margin-right: .2rem;
+        width: 2rem;
+    }    
+    #logofume {
+        width: 5.7rem;
+        margin-left: .2rem;
+    }    
+    #copyicarus {
+        text-decoration: none;
+        color: #adacac;
+        font-size: smaller;
+    }
+    #body {
+        margin-top: -70px;
+    }    
+    .king {
+        width: 90%;
+        height: 40vh;
+        margin: 10px auto;
+        margin-top: 50px;
+        background-image: url(../images/King.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 30px;
+        border-radius: 5px;
+    }    
+    .king h3 {
+        color: #fff;
+        font-size: medium;
+    }    
+    .king h2 {
+        color: #0099cc;
+        font-size: large;
+    }    
+    .king h4 {
+        color: #c4c1c1;
+        font-size: small;
+    }
+    #frase {
+        color: #202020;
+        margin-top: 50px;
+        width: 80%;    
+        margin-left: 10%;
+        text-align: center;
+        font-size: medium;
+    }   
+    #ipad {
+        width: 70%;
+        margin-left: 15%;
+        border-radius: 5px;
+    }
+    #frase2 {
+        color: #202020;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 80%;    
+        margin-left: 10%;
+        text-align: center;
+        font-size: medium;
+    }
+}

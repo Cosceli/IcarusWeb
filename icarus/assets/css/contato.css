@@ -1,0 +1,454 @@
+.my-fonts {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../images/Sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#idioma {
+    top: 0;
+    left: 10%;
+    position: fixed;
+    z-index: 999;
+    width: 80%;
+    height: 30px;
+    background-color: #202020;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#icon {
+    align-items: end;
+    margin-right: .5rem;
+    text-decoration: none;
+}
+
+#flag {
+    padding: .4rem
+}
+
+#icon2 {
+    display: none;
+}
+
+a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 2vmin;
+    line-height: 50%;
+}
+
+a:hover {
+    color: #858585;
+}
+
+#logo {
+    width: 8rem;
+}
+
+#logop{
+    width: 3rem;
+    display: none;
+}
+
+#header {
+    position: fixed;
+    top: 30px;
+    left: 10%;
+    width: 80%;
+    height: 80px;
+    z-index: 999;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    font-size: medium;
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+    
+}
+
+
+#social {
+    width: 80%;
+    height: 200px;
+    background-color: #626161;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+#iconbuy {
+    width: 5rem;
+}
+
+#store a {
+    text-decoration: none;
+}
+
+#icondown {
+    margin-right: 1rem;
+}
+
+#icondown a {
+    padding: .1rem;
+    text-decoration: none;
+}
+
+#insta {
+    width: 2rem;
+    padding: .1rem;
+}
+
+#logofume {
+    width: 7rem;
+}
+
+#footer {
+    width: 80%;
+    height: 50px;
+    background-color: #202020;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+#copyicarus {
+    text-decoration: none;
+    color: #adacac;
+    font-size: small;
+}
+
+#idioma a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#body {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -10px;
+    background-color: #e0dfdf;
+}
+
+.j3 h2 {
+    color: #057ecf;
+}
+
+.j3 h4 {
+    color: #282829;
+}
+
+.j3 h2 {
+    color: #057ecf;
+}
+
+.j3 h4 {
+    color: #282829;
+}
+
+.j3 {
+    width: 100%;
+    height: 20vh;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-image: url(../images/j3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.j3 h4, .j3 h2 {
+    margin-left: 20px;
+}
+
+#dados {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30rem;
+    max-width: 30rem;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#mensagem {
+    color: #202020;
+}
+#campo {
+    color: #202020;
+    font-style: italic;
+    font-size: smaller;
+}
+#label {
+    color: #202020;
+    font-size: small;
+}
+#nome {
+    border-style: none;
+    width: 100%;
+    border-radius: 5px;
+}
+#email {
+    border-style: none;
+    width: 100%;
+    border-radius: 5px;
+}
+#tel {
+    border-style: none;
+    width: 100%;
+    border-radius: 5px;
+}
+#radio {
+    color: #202020;
+    font-size: small;
+}
+#selecione {
+    font-size: small;
+    height: 29px;
+    border-radius: 5px;
+}
+#digite {
+    border-style: none;
+    
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.container-h {
+    color: #202020;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mapa iframe {
+    background-color: #202020;
+    max-width: 100%;
+    width: 550px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+
+
+@media (max-width: 780px) {
+    #logo{
+        display: none;
+    }
+    #logop{
+        display: block;
+    }
+    #icon2 {
+        display: block;
+    }
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        box-sizing: border-box;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        right: 0px;
+        background-color: #fff;
+        transition: .6s;
+        z-index: 1000;
+        height: auto;
+        max-height: calc(100vh - 50px);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        color: #202020;
+        font-size: medium;
+        padding: 1rem 0;
+        margin: 0px 1rem;
+        border-bottom: 2px solid #d6d4d4;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    #social {
+        width: 100%;
+        height: 150px;
+        background-color: #626161;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }   
+    #logoescuro {
+        display: none;
+    }
+    #store {
+        margin-left: 1rem;
+    }    
+    #store a {
+        text-decoration: none;
+    }   
+    #iconbuy {
+        width: 4rem;
+    }
+    #icondown {
+        margin-right: 1.3rem;
+    }    
+    #icondown a {
+        text-decoration: none;
+    }    
+    #insta {
+        width: 2rem;
+        margin-left: .1rem;
+    }
+    #footer {
+        width: 100%;
+        height: 30px;
+        background-color: #202020;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+    }  
+    #copyicarus {
+        text-decoration: none;
+        color: #adacac;
+        font-size: smaller;
+    }
+    #body {
+        margin-top: -70px;
+    } 
+    #dados {
+        max-width: 80%;
+        padding: 10px;
+    }   
+    .mapa iframe {
+        font-size: small;
+        max-width: 100%;
+        width: 450px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

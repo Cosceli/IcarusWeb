@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/favicon-32x32.png" type="image/x-icon">
+    <title>Icarus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="idioma">
+            <div id="icon">
+                <a href="../pages/english-inicio.html">
+                    <img id="flag" src="../images/icons8-great-britain-16.png" alt="English">
+                </a>
+                <a href="../pages/spanish-inicio.html">
+                    <img id="flag" src="../images/icons8-spain-16.png" alt="Spanish">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <header id="header">
+        <img id="logo" src="../images/Icarus_Logo_Technology_Transp.png" alt="Logomarca">
+        <img id="logop" src="../images/Icarus_Logo_Transp.png" alt="Logomarca">
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/solucoes.html">Soluções</a></li>
+                <!-- <li><a href="">Clientes</a></li> -->
+                <li><a href="../pages/links.html">Links</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+                <div id="icon2">
+                    <a href="../pages/english-inicio.html">
+                        <img id="flag" src="../images/icons8-great-britain-16.png" alt="English">
+                    </a>
+                    <a href="../pages/spanish-inicio.html">
+                        <img id="flag" src="../images/icons8-spain-16.png" alt="Spanish">
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="body">
+
+        <section class="j3">
+        </section>
+
+        <form id="dados" name="dados" method="post" action="/aplicação">
+            <fieldset>
+                <legend id="mensagem">Em que podemos te ajudar?</legend>
+                <p id="campo">*campo origatório</p>
+                <label id="label" for="nome">Nome*</label>
+                <input type="text" id="nome" name="nome">
+            </fieldset>
+            <fieldset>
+                <label id="label" for="email">Email*</label>
+                <input type="text" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <label id="label" for="tel">Telefone</label>
+                <input type="text" required placeholder="" id="tel" name="tel">
+            </fieldset>
+            <fieldset>
+            <input id="radio" type="radio" name="linguagensradio" value="HTML">
+            <label id="radio" for="linguagensRadio1">Fixo</label>
+            <input id="radio" type="radio" name="linguagensradio" id="linguagensRadio1" value="HTML">
+            <label id="radio" for="linguagensRadio1">Celular</label>
+            </fieldset>
+            <fieldset>
+            <label id="label" for="label" class="form-label">Motivo do contato</label>
+            <select name="contato" id="selecione" class="form-select">
+                <option value="0">Selecione sua opção</option>
+                <option value="1">Informações</option>
+                <option value="2">Ajuda</option>
+            </select>
+            </fieldset>
+            <fieldset>
+                <label id="label" for="mensagem">Mensagem:</label><br>
+                <textarea id="digite" placeholder="Digite aqui sua mensagem" name="digite"></textarea><br>
+            </fieldset>
+            <a href="../pages/index.html" class="btn btn-primary my-3">Enviar</a>
+        </form>
+        
+        
+        <div class="container-h">
+            <h4>Endereço</h4>
+            <h6>Rua Viri, 486 - 8⁰ andar - Jardim São Paulo - São Paulo - SP</h6>
+        </div>
+        <div class="container-h">
+            <h4>Email</h4>
+            <h6>contato@icarus.app.br</h6>
+        </div>
+        <div class="container-h">
+            <h4>Telefone</h4>
+            <h6>(11) 98904-7006</h6>
+        </div>
+        <div class="mapa text-center">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0396401065163!2d-46.6151555238189!3d-23.495081659162167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef61878b46d91%3A0x4bf7248555375fb7!2sR.%20Viri%2C%20486%20-%20Jardim%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002046-050!5e0!3m2!1spt-BR!2sbr!4v1688644365284!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <footer id="social">
+        <div id="logoescuro">
+            <img id="logofume" src="../images/Icarus_Logo_Escurop.jpg" alt="Logomarca">
+        </div>
+        <div id="store">
+            <a href="https://www.apple.com/br/app-store/" target="_blank">
+                <img id="iconbuy" src="../images/apple.svg" alt="Apple store">
+            </a>
+            <a href="https://play.google.com/store/games?device=phone" target="_blank">
+                <img id="iconbuy" src="../images/android2.svg" alt="Play store">
+            </a>
+        </div>
+        <div id="icondown">
+            <a href="https://wa.me/5511996205350" target="_blank">
+                <img id="insta" src="../images/whatsapp.svg" alt="Whatsapp">
+            <a href="https://www.instagram.com/icarus_av_tech/?hl=pt-br" target="_blank">
+                <img id="insta" src="../images/instagram (1).svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/company/93253880/admin/" target="_blank">
+                <img id="insta" src="../images/linkedin (1).svg" alt="linkedin">
+            </a>
+        </div>
+    </footer>
+
+    <footer id="footer">
+        <div id="copy">
+            <a id="copyicarus" href="">| &copy; 2023 ICARUS |</a>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
